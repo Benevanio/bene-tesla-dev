@@ -2,12 +2,14 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import './Navbar.css';
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark"  fixed="top">
+    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="/">@Bene_Tesla_Dev</Navbar.Brand>
+        {/* Botão de alternância do menu (Hamburger Menu) */}
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ml-auto">
