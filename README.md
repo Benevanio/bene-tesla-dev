@@ -33,7 +33,7 @@ Este projeto foi criado com o **Create React App**. Para rodar o projeto localme
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/bene_tesla_dev.git
+   git clone https://github.com/Benevanio/bene-tesla-dev
    cd bene_tesla_dev
    ```
 
